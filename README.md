@@ -132,7 +132,9 @@ Executar o comando git log exibe uma lista de compromissos em uma ramificação,
 
 Para redefinir o índice e o diretório de trabalho para o estado do último commit, o comando git reset é usado. Uso:
 
-    git reset --hard HEAD
+    git reset HEAD~1 --hard
+    
+A Referencia "~1" após o "HEAD" remete a quantidade de commits você quer voltar, então se colocar "~2", irá voltar 2 commits, e assim sucessivamente. 
     
 ## git rm
 
