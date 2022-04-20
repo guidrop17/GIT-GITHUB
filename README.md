@@ -101,7 +101,7 @@ O comando git merge é usado para mesclar uma ramificação no ramo ativo. Uso:
 
     git merge <branch-name>
     
-##git diff
+## git diff
 
 O comando git diff é usado para listar os conflitos. Para visualizar conflitos com o arquivo base, use
 
